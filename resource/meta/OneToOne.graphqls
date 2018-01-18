@@ -1,0 +1,7 @@
+directive @OneToOne (
+    targetEntity: String!
+    cascade: [CascadeOption]
+    fetch: Fetch
+    orphanRemoval: Boolean
+    inversedBy: String!
+) on FIELD_DEFINITION

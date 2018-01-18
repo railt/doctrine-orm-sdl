@@ -1,0 +1,4 @@
+input Order {
+    name: String!
+    direction: Direction = ASC
+}

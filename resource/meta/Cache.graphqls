@@ -1,0 +1,4 @@
+directive @Cache(
+    usage: CacheUsage = READ_ONLY
+    region: String
+) on OBJECT

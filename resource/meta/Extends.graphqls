@@ -1,0 +1,3 @@
+directive @Extends(
+    from: String!
+) on OBJECT

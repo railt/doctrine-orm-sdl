@@ -1,0 +1,8 @@
+input JoinColumn {
+    name: String!
+    referencedColumnName: String!
+    unique: bool
+    nullable: bool
+    onDelete: OnDelete = RESTRICT
+    columnDefinition: String!
+}

@@ -1,0 +1,11 @@
+directive @Column(
+    type: ColumnType!
+    name: String
+    length: Int
+    precision: Int
+    scale: Int
+    unique: Boolean
+    nullable: Boolean
+    options: ColumnOptions
+    columnDefinition: String!
+) on FIELD_DEFINITION

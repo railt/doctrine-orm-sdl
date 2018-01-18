@@ -1,0 +1,5 @@
+input SqlResultSetMapping {
+    name: String!
+    entities: [EntityResult!]
+    columns: [ColumnResult!]
+}

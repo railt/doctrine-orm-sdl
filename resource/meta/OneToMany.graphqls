@@ -1,0 +1,8 @@
+directive @OneToMany (
+    targetEntity: String!
+    cascade: [CascadeOption]
+    orphanRemoval: Boolean
+    mappedBy: String
+    fetch: Fetch
+    indexBy: String
+)

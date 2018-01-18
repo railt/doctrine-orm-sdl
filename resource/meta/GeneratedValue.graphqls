@@ -1,0 +1,3 @@
+directive @GeneratedValue(
+    strategy: GeneratingStrategy = AUTO
+) on FIELD_DEFINITION

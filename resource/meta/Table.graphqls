@@ -1,0 +1,6 @@
+directive @Table (
+    name: String!
+    indexes: [Index!]
+    uniqueConstraints: [UniqueConstraint!]
+    schema: String!
+) on OBJECT

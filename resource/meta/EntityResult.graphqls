@@ -1,0 +1,5 @@
+input EntityResult {
+    entityClass: String!
+    fields: [FieldResult!]
+    discriminatorColumn: String
+}

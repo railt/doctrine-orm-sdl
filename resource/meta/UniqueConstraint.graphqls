@@ -1,0 +1,5 @@
+input UniqueConstraint {
+    name: String!
+    columns: [String!]!
+    options: PlatformOptions
+}

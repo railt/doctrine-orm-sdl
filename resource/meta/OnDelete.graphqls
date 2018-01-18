@@ -1,0 +1,6 @@
+enum OnDelete {
+    CASCADE
+    REMOVE
+    SET_NULL
+    RESTRICT
+}

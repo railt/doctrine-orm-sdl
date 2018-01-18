@@ -1,0 +1,8 @@
+directive @ManyToMany (
+    targetEntity: String!
+    mappedBy: Sring
+    inversedBy: Sring
+    cascade: [CascadeOption]
+    fetch: Fetch
+    indexBy: String
+) on FIELD_DEFINITION

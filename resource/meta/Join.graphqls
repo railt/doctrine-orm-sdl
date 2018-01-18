@@ -1,0 +1,5 @@
+directive @Join(
+    column: JoinColumn
+    columns: [JoinColumn!]
+    table: JoinTable
+)

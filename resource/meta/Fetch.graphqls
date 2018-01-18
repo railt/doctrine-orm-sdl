@@ -1,0 +1,5 @@
+enum Fetch {
+    EAGER
+    EXTRA_LAZY
+    LAZY
+}

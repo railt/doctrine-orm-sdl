@@ -1,0 +1,3 @@
+input ChangeTrackingPolicy {
+    name: TrackingPolicy
+}

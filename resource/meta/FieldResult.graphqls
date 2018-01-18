@@ -1,0 +1,4 @@
+input FieldResult {
+    name: String!
+    column: String
+}

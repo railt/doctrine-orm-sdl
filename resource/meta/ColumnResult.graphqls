@@ -1,0 +1,4 @@
+input ColumnResult {
+    name: String
+}
+

@@ -1,0 +1,5 @@
+input Index {
+    name: String!
+    columns: [String!]!
+    options: IndexOptions
+}

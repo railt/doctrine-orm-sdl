@@ -1,0 +1,8 @@
+input ColumnOptions {
+    default: Any
+    unsigned: Boolean
+    fixed: Boolean
+    comment: String!
+    collation: String!
+    check: String!
+}

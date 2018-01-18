@@ -1,0 +1,1 @@
+directive @Class(name: String!) on OBJECT

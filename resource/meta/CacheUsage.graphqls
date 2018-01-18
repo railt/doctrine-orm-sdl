@@ -1,0 +1,5 @@
+enum CacheUsage {
+    READ_ONLY
+    READ_WRITE
+    NONSTRICT_READ_WRITE
+}

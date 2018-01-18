@@ -1,0 +1,35 @@
+# If you want to use custiom type (for example 'uuid')
+# you should extend following enum like this:
+#
+# ```sdl
+# extend COLUMN_TYPE {uuid}
+# ```
+enum ColumnType {
+    # numeric
+    smallint integer bigint
+    decimal float
+
+    # strings
+    string text guid
+
+    # binary
+    binary blob
+
+    # boolean
+    boolean
+
+    # date & time
+    date date_immutable
+    datetime datetime_immutable
+    datetimetz datetimetz_immutable
+    time time_immutable
+    dateinterval
+
+    # arrays
+    array simple_array
+    json
+    json_array @deprecated
+
+    # objects
+    object
+}

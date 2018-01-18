@@ -1,0 +1,9 @@
+enum GeneratingStrategy {
+    AUTO
+    SEQUENCE
+    TABLE
+    IDENTITY
+    UUID
+    CUSTOM
+    NONE
+}

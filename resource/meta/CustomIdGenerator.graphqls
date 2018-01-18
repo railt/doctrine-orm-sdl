@@ -1,0 +1,3 @@
+directive @CustomIdGenerator (
+    class: String!
+) on FIELD_DEFINITION

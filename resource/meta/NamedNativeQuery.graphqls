@@ -1,0 +1,6 @@
+input NamedNativeQuery {
+    name: String!
+    query: Sting!
+    resultClass: String
+    resultSetMapping: String
+}

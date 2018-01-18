@@ -1,0 +1,5 @@
+directive @ManyToOne (
+    cascade: [CascadeOption]
+    fetch: Fetch
+    inversedBy: String
+) on FILED_DEFINITION

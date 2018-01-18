@@ -1,0 +1,5 @@
+directive @SequenceGenerator(
+    sequenceName: String!
+    allocationSize: Int = 10
+    initialValue: Int = 1
+) on FIELD_DEFINITION

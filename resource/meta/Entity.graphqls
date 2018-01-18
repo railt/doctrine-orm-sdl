@@ -1,0 +1,4 @@
+directive @Entity(
+    repositoryClass: String
+    readOnly: Boolean
+) on OBJECT
