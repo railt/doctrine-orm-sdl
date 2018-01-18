@@ -1,0 +1,5 @@
+input DiscriminatorColumn {
+    name: String!
+    type: ColumnType = string
+    length: Int = 255
+}

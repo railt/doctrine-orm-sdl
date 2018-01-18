@@ -1,14 +1,3 @@
-input DiscriminatorColumn {
-    name: String!
-    type: ColumnType = string
-    length: Int = 255
-}
-
-input DiscriminatorMap {
-    alias: String!
-    class: String!
-}
-
 directive @Discriminator (
     column: DiscriminatorColumn!
     map: [DiscriminatorMap!]

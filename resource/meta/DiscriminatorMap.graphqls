@@ -1,0 +1,4 @@
+input DiscriminatorMap {
+    alias: String!
+    class: String!
+}
