@@ -5,4 +5,4 @@ directive @OneToMany (
     mappedBy: String
     fetch: Fetch
     indexBy: String
-)
+) on FIELD_DEFINITION
