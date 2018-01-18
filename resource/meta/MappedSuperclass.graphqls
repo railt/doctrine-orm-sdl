@@ -1,4 +1,3 @@
 directive @MappedSuperClass (
     repositoryClass: String
 ) on OBJECT
-
