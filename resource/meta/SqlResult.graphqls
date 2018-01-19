@@ -1,3 +1,3 @@
-directive @SqlResultSet(
+directive @SqlResult(
     mappings: [SqlResultSetMappings]
 ) on OBJECT

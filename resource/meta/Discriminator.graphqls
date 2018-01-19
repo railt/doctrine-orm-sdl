@@ -1,4 +1,4 @@
 directive @Discriminator (
-    column: DiscriminatorColumn!
-    map: [DiscriminatorMap!]
+    column: DiscriminatorColumn = {name: "dtype", type: "string", length: 255}
+    map: [DiscriminatorMap!] = []
 ) on OBJECT

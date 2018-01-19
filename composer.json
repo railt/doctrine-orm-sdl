@@ -1,0 +1,21 @@
+{
+    "name": "railt/doctrine-orm-sdl",
+    "description": "RL/SDL based metadata-driver for Doctrine ORM",
+    "type": "library",
+    "require": {
+        "doctrine/orm": "2.7.x-dev",
+        "railt/compiler": "dev-master",
+        "railt/sdl": "dev-master"
+    },
+    "license": "MIT",   
+    "authors": [
+        {
+            "name": "Greabock",
+            "email": "greabock@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require-dev": {
+        "phpunit/phpunit": "6.5"
+    }
+}

@@ -1,0 +1,4 @@
+input NamedQuery {
+    name: String!
+    query: String!
+}
